@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Елена Уханова — сайты для экспертов и малого бизнеса быстро и бережно</title>
+  <meta name="description" content="Вайбкодер Елена Уханова. Делаю сайты быстро и профессионально с помощью нейросетей. Запишитесь на диагностическую консультацию — разберём вашу задачу без спешки и обязательств.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=JetBrains+Mono:wght@400;500&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== ШАПКА ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <span class="logo__mark">ЕУ</span>
+        <span class="logo__text">Елена Уханова<small>вайбкодер</small></span>
+      </a>
+      <nav class="nav">
+        <a href="#tasks">Задачи</a>
+        <a href="#process">Как я работаю</a>
+        <a href="#prices">Стоимость</a>
+        <a href="#about">Обо мне</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <a href="#signup" class="btn btn--small">Записаться</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== 1. ПЕРВЫЙ ЭКРАН ===== -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="kicker load load--1"><span class="kicker__dot"></span>Вайбкодер · сайты с помощью нейросетей</p>
+          <h1 class="load load--2">
+            Сайт, который <em>понятно</em> объясняет, чем вы&nbsp;занимаетесь, и&nbsp;приводит клиентов
+          </h1>
+          <p class="hero__lead load load--3">
+            Делаю сайты быстро и профессионально: от первой встречи до готовой страницы —
+            за дни, а не за месяцы. Вам не нужно разбираться в технике — я переведу её
+            на человеческий язык и проведу через каждый шаг.
+          </p>
+          <div class="hero__actions load load--4">
+            <a href="#signup" class="btn">Записаться на консультацию <span class="btn__arrow">→</span></a>
+            <a href="#process" class="link-underline">Как проходит встреча</a>
+          </div>
+          <ul class="hero__facts load load--5">
+            <li><strong>от 3</strong> дней — готовый лендинг<!-- ДОКРУТИТЬ: проверить реальный минимальный срок --></li>
+            <li><strong>30</strong> минут — первая консультация<!-- ДОКРУТИТЬ: длительность --></li>
+            <li><strong>0</strong> обязательств после встречи</li>
+          </ul>
+        </div>
+
+        <!-- Окно браузера: задача для нейросети превращается в сайт -->
+        <div class="hero__visual load load--3" aria-hidden="true">
+          <div class="browser">
+            <div class="browser__bar">
+              <span></span><span></span><span></span>
+              <p class="browser__url">ваш-сайт.рф</p>
+            </div>
+            <div class="browser__prompt">
+              <span class="browser__caret">›</span>
+              <span class="typing">сделай сайт для психолога</span>
+            </div>
+            <div class="mock">
+              <div class="mock__nav"><i></i><i></i><i></i><b></b></div>
+              <div class="mock__hero">
+                <div class="mock__lines"><i></i><i></i><i class="short"></i><b></b></div>
+                <div class="mock__img"></div>
+              </div>
+              <div class="mock__cards"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+
+          <div class="sticker">
+            <svg viewBox="0 0 200 200" class="sticker__ring">
+              <defs><path id="circle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+              <text><textPath href="#circle">быстро · профессионально · бережно · понятно · </textPath></text>
+            </svg>
+            <span class="sticker__center">от&nbsp;3<br><small>дней</small></span>
+          </div>
+
+          <div class="hero__note">
+            <p>На первой встрече вы уйдёте с понятным планом — даже если решите делать сайт не со мной</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Бегущая строка ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>лендинг для услуги</span><span>✦</span>
+        <span>сайт-визитка эксперта</span><span>✦</span>
+        <span>онлайн-запись</span><span>✦</span>
+        <span>сайт для малого бизнеса</span><span>✦</span>
+        <span>обновление старого сайта</span><span>✦</span>
+        <span>лендинг для услуги</span><span>✦</span>
+        <span>сайт-визитка эксперта</span><span>✦</span>
+        <span>онлайн-запись</span><span>✦</span>
+        <span>сайт для малого бизнеса</span><span>✦</span>
+        <span>обновление старого сайта</span><span>✦</span>
+      </div>
+    </div>
+
+    <!-- ===== ЧТО ТАКОЕ ВАЙБКОДИНГ ===== -->
+    <section class="section explain">
+      <div class="container explain__inner reveal">
+        <p class="section-num">№ 00 — простыми словами</p>
+        <h2 class="explain__title">Вайбкодинг — это&nbsp;что?</h2>
+        <p class="explain__big">
+          Это современный способ создавать сайты с&nbsp;помощью нейросетей. Я&nbsp;ставлю задачу
+          искусственному интеллекту, проверяю каждый результат и&nbsp;дорабатываю его вручную.
+          <em>Нейросеть берёт на себя рутину, а&nbsp;за смысл, удобство и&nbsp;качество отвечает человек.</em>
+        </p>
+        <div class="explain__benefits">
+          <div><strong>в разы</strong><span>быстрее, чем в студии</span></div>
+          <div><strong>заметно</strong><span>дешевле обычной разработки</span></div>
+          <div><strong>часы</strong><span>на правки, а не недели</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. С КАКИМИ ЗАПРОСАМИ Я РАБОТАЮ ===== -->
+    <section class="section section--paper" id="tasks">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-num">№ 01 — с чем ко мне приходят</p>
+          <h2>С какими задачами <em>я&nbsp;помогаю</em></h2>
+        </div>
+        <ol class="index">
+          <li class="index__row reveal">
+            <span class="index__num">01</span>
+            <h3>Лендинг для услуги</h3>
+            <p>Одна понятная страница, которая рассказывает о вас и собирает заявки на консультацию, курс или продукт.</p>
+          </li>
+          <li class="index__row reveal">
+            <span class="index__num">02</span>
+            <h3>Сайт-визитка эксперта</h3>
+            <p>Аккуратное место в интернете, куда не стыдно отправить клиента: кто вы, чем помогаете, как с вами связаться.</p>
+          </li>
+          <li class="index__row reveal">
+            <span class="index__num">03</span>
+            <h3>Сайт для малого бизнеса</h3>
+            <p>Студия, мастерская, кабинет, салон — с услугами, ценами, адресом и удобной записью.</p>
+          </li>
+          <li class="index__row reveal">
+            <span class="index__num">04</span>
+            <h3>Обновление старого сайта</h3>
+            <p>Сайт есть, но он устарел, неудобен на телефоне или «не работает». Освежим и сделаем понятным.</p>
+          </li>
+          <li class="index__row reveal">
+            <span class="index__num">05</span>
+            <h3>Онлайн-запись и заявки</h3>
+            <p>Форма, через которую клиент записывается сам, а заявка приходит вам в мессенджер или на почту.</p>
+            <!-- ДОКРУТИТЬ: какие именно интеграции делаете (Telegram, WhatsApp, почта, CRM) -->
+          </li>
+          <li class="index__row index__row--accent reveal">
+            <span class="index__num">06</span>
+            <h3>«Я не знаю, что мне нужно»</h3>
+            <p>Самый частый запрос. Разберёмся вместе, с чего начать и что даст результат именно вам.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== 3. ДЛЯ КОГО ===== -->
+    <section class="section" id="for-whom">
+      <div class="container whom">
+        <div class="whom__head reveal">
+          <p class="section-num">№ 02 — для кого</p>
+          <h2>Кому особенно подойдёт работа <em>со&nbsp;мной</em></h2>
+          <div class="tags">
+            <span>психологи</span><span>коучи</span><span>нутрициологи</span><span>преподаватели</span>
+            <span>юристы</span><span>консультанты</span><span>бьюти-мастера</span><span>фотографы</span>
+            <span>дизайнеры</span><span>студии и салоны</span>
+          </div>
+        </div>
+        <ul class="whom__list">
+          <li class="reveal"><strong>Экспертам и специалистам</strong>, которые помогают людям своими знаниями и хотят, чтобы это было видно с первого взгляда.</li>
+          <li class="reveal"><strong>Мастерам</strong> — тем, кто работает руками и головой, и устал объяснять всё в переписке заново.</li>
+          <li class="reveal"><strong>Малому бизнесу</strong> — когда нужен сайт, а нанимать студию дорого и долго.</li>
+          <li class="reveal"><strong>Тем, кто только начинает</strong> — и хочет выглядеть профессионально с первого дня.</li>
+          <li class="reveal"><strong>Тем, кто уже обжёгся</strong> — заплатил, долго ждал, а сайт так и не заработал.</li>
+          <li class="reveal"><strong>Тем, кто устал от соцсетей как единственной витрины</strong> — и хочет своё место, которое не зависит от алгоритмов.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 4. СТРАХИ, ПРОБЛЕМЫ И ЭКОНОМИЯ ===== -->
+    <section class="section section--paper" id="fears">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-num">№ 03 — что может останавливать</p>
+          <h2>Сомнения, которые я слышу <em>чаще всего</em></h2>
+        </div>
+        <div class="fears">
+          <article class="fear reveal">
+            <p class="fear__q">«Я ничего не понимаю в сайтах, мне будет неловко»</p>
+            <p class="fear__a">Вам и не нужно понимать. Я объясняю простыми словами и не использую терминов без перевода. Глупых вопросов здесь нет.</p>
+          </article>
+          <article class="fear reveal">
+            <p class="fear__q">«Это будет очень дорого»</p>
+            <p class="fear__a">Нейросети берут на себя рутинную часть работы, поэтому итоговая цена ниже студийной. Стоимость мы фиксируем до старта.</p>
+          </article>
+          <article class="fear reveal">
+            <p class="fear__q">«Это затянется на месяцы»</p>
+            <p class="fear__a">Лендинг я делаю за несколько дней. Сроки прописываем заранее, и вы видите промежуточный результат.</p>
+          </article>
+          <article class="fear reveal">
+            <p class="fear__q">«Сделают не то, что я хотела, и придётся мириться»</p>
+            <p class="fear__a">В стоимость входят правки. Вы смотрите черновик, говорите, что не так, — я исправляю, пока результат вам не понравится.<!-- ДОКРУТИТЬ: сколько кругов правок входит --></p>
+          </article>
+          <article class="fear reveal">
+            <p class="fear__q">«Потом я не смогу сама ничего поменять»</p>
+            <p class="fear__a">Покажу, как обновлять тексты и цены, и останусь на связи после запуска.</p>
+          </article>
+          <article class="fear reveal">
+            <p class="fear__q">«Сайт сделан с ИИ — значит, шаблонный»</p>
+            <p class="fear__a">ИИ — это инструмент, как калькулятор у бухгалтера. Структуру, тексты и дизайн я продумываю под вас и проверяю вручную.</p>
+          </article>
+        </div>
+
+        <div class="savings reveal">
+          <h3 class="savings__title">Сколько времени и денег это <em>экономит</em></h3>
+          <!-- ДОКРУТИТЬ: цифры ориентировочные — заменить на ваши реальные цены и сроки -->
+          <div class="compare">
+            <div class="compare__row compare__row--head">
+              <span>Лендинг для эксперта</span>
+              <span>Веб-студия</span>
+              <span>Сами на конструкторе</span>
+              <span class="accent">Со мной</span>
+            </div>
+            <div class="compare__row">
+              <span>Срок</span>
+              <span>1–2 месяца</span>
+              <span>недели вечеров и выходных</span>
+              <span class="accent">от 3 дней</span>
+            </div>
+            <div class="compare__row">
+              <span>Бюджет</span>
+              <span>от 80 000 ₽</span>
+              <span>подписка + ваше время</span>
+              <span class="accent">от 15 000 ₽</span>
+            </div>
+            <div class="compare__row">
+              <span>Ваши усилия</span>
+              <span>ТЗ, созвоны, согласования</span>
+              <span>всё сами: тексты, дизайн, настройка</span>
+              <span class="accent">одна встреча и обратная связь</span>
+            </div>
+          </div>
+          <p class="case"><span class="case__label">Пример</span>Психолог хотела лендинг под новую программу. В студии ей назвали срок 6 недель. Мы запустили страницу за 4 дня, и первая заявка пришла в тот же вечер.<!-- ДОКРУТИТЬ: заменить на реальный кейс --></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. РЕЗУЛЬТАТ ===== -->
+    <section class="section section--ink" id="result">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-num section-num--light">№ 04 — что вы получите</p>
+          <h2>Результат <em>работы</em></h2>
+        </div>
+        <div class="results">
+          <div class="result reveal"><span>i</span><h3>Готовый сайт</h3><p>Аккуратный, современный, удобный на телефоне и компьютере.</p></div>
+          <div class="result reveal"><span>ii</span><h3>Понятные тексты</h3><p>Человек за 10 секунд понимает, кто вы, чем помогаете и почему вам можно доверять.</p></div>
+          <div class="result reveal"><span>iii</span><h3>Поток заявок</h3><p>Удобная форма записи, заявки приходят туда, где вам удобно их видеть.</p></div>
+          <div class="result reveal"><span>iv</span><h3>Спокойствие</h3><p>Больше не нужно стесняться ссылки на сайт или объяснять всё в переписке заново.</p></div>
+          <div class="result reveal"><span>v</span><h3>Сэкономленное время</h3><p>Не нужно месяцами разбираться в конструкторах и искать подрядчиков.</p></div>
+          <div class="result reveal"><span>vi</span><h3>Поддержка после запуска</h3><p>Если что-то понадобится поправить — я рядом.<!-- ДОКРУТИТЬ: срок бесплатной поддержки --></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6. КАК ПРОХОДЯТ КОНСУЛЬТАЦИИ ===== -->
+    <section class="section" id="process">
+      <div class="container process">
+        <div class="process__head reveal">
+          <p class="section-num">№ 05 — как это проходит</p>
+          <h2>Консультация и работа — <em>шаг за&nbsp;шагом</em></h2>
+          <p class="process__aside">Можно прийти без ТЗ и без идей — это нормально. Моя задача — задать правильные вопросы.</p>
+          <a href="#signup" class="btn">Выбрать время <span class="btn__arrow">→</span></a>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">1</span>
+            <h3>Вы оставляете заявку</h3>
+            <p>Достаточно имени и удобного способа связи. Я напишу в течение дня и предложу время.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">2</span>
+            <h3>Диагностическая консультация</h3>
+            <p>30 минут онлайн. Говорим о вас, ваших клиентах и задаче. Без продаж «в лоб» и без давления.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">3</span>
+            <h3>План и стоимость</h3>
+            <p>После встречи присылаю короткий план: что будет на сайте, сроки и точную цену. Думайте столько, сколько нужно.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">4</span>
+            <h3>Создание сайта</h3>
+            <p>Я собираю сайт, показываю черновик, мы вносим правки вместе.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">5</span>
+            <h3>Запуск и передача</h3>
+            <p>Сайт выходит в интернет, вы получаете все доступы и короткую инструкцию.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== 7. ФОРМАТ, СРОКИ, СТОИМОСТЬ ===== -->
+    <section class="section section--paper" id="prices">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="section-num">№ 06 — формат работы</p>
+          <h2>Сроки и <em>стоимость</em></h2>
+          <p class="section-head__lead">Работаю онлайн, с клиентами из любого города. Цена фиксируется до начала работы и не меняется по ходу.</p>
+        </div>
+        <!-- ДОКРУТИТЬ: все цены и сроки ниже — ориентировочные, заменить на свои -->
+        <div class="tickets">
+          <article class="ticket reveal">
+            <div class="ticket__top">
+              <p class="ticket__label">Первый шаг</p>
+              <h3>Консультация</h3>
+              <p class="ticket__price">Бесплатно</p>
+              <p class="ticket__time">30 минут онлайн</p>
+            </div>
+            <div class="ticket__bottom">
+              <ul>
+                <li>разбор вашей задачи</li>
+                <li>рекомендации по структуре сайта</li>
+                <li>оценка сроков и бюджета</li>
+              </ul>
+              <a href="#signup" class="btn btn--ghost btn--full">Записаться</a>
+            </div>
+          </article>
+          <article class="ticket ticket--accent reveal">
+            <span class="ticket__badge">чаще всего выбирают</span>
+            <div class="ticket__top">
+              <p class="ticket__label">Одна страница</p>
+              <h3>Лендинг</h3>
+              <p class="ticket__price">от 15 000 ₽</p>
+              <p class="ticket__time">от 3 дней</p>
+            </div>
+            <div class="ticket__bottom">
+              <ul>
+                <li>одна страница под вашу услугу</li>
+                <li>структура и тексты</li>
+                <li>удобно смотреть с телефона</li>
+                <li>форма заявки</li>
+                <li>правки и запуск</li>
+              </ul>
+              <a href="#signup" class="btn btn--light btn--full">Обсудить лендинг</a>
+            </div>
+          </article>
+          <article class="ticket reveal">
+            <div class="ticket__top">
+              <p class="ticket__label">Несколько страниц</p>
+              <h3>Сайт</h3>
+              <p class="ticket__price">от 30 000 ₽</p>
+              <p class="ticket__time">от 7 дней</p>
+            </div>
+            <div class="ticket__bottom">
+              <ul>
+                <li>несколько страниц и разделов</li>
+                <li>услуги, цены, портфолио</li>
+                <li>онлайн-запись</li>
+                <li>поддержка после запуска</li>
+              </ul>
+              <a href="#signup" class="btn btn--ghost btn--full">Обсудить сайт</a>
+            </div>
+          </article>
+        </div>
+        <p class="pay-note reveal">Оплата по этапам: часть до старта, остальное — после того, как сайт вам понравится.<!-- ДОКРУТИТЬ: условия оплаты --></p>
+      </div>
+    </section>
+
+    <!-- ===== 8. ОБО МНЕ ===== -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__photo reveal">
+          <!-- ДОКРУТИТЬ: заменить на фото: <img src="img/elena.jpg" alt="Елена Уханова"> -->
+          <div class="placeholder placeholder--portrait">Фото Елены</div>
+          <p class="about__sign">Елена</p>
+        </div>
+        <div class="about__text reveal">
+          <p class="section-num">№ 07 — обо мне</p>
+          <h2>Елена <em>Уханова</em></h2>
+          <p class="about__role">Вайбкодер: создаю сайты с помощью нейросетей</p>
+          <blockquote class="about__quote">
+            Мне важно, чтобы после работы со мной у вас оставалось ощущение спокойствия,
+            а не «опять что-то непонятное».
+          </blockquote>
+          <p>
+            Я помогаю экспертам и небольшим бизнесам появиться в интернете так, чтобы
+            это было про них — честно, аккуратно и понятно их клиентам.
+          </p>
+          <p>
+            В 2026 году я прошла обучение по нейросетям, промпт-инжинирингу (умению
+            грамотно ставить задачи искусственному интеллекту) и вайбкодингу в школе
+            Ксении Барановой. Использую самые современные инструменты, но главным
+            считаю другое: внимательно слушать и переводить «я не знаю, как это
+            сказать» в ясный и тёплый текст.
+          </p>
+          <!-- ДОКРУТИТЬ: добавить личную историю — почему пришли в профессию, прошлый опыт (это сильно усиливает доверие) -->
+          <ul class="about__facts">
+            <li><strong>2026</strong>обучение в школе Ксении Барановой</li>
+            <li><strong>[N]</strong>сделанных проектов<!-- ДОКРУТИТЬ --></li>
+            <li><strong>онлайн</strong>работаю с любым городом</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 9. ПОРТФОЛИО И СЕРТИФИКАТЫ ===== -->
+    <section class="section section--paper" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-num">№ 08 — портфолио</p>
+          <h2>Работы и <em>обучение</em></h2>
+        </div>
+
+        <!-- ДОКРУТИТЬ: заменить заглушки на скриншоты работ: <img src="img/work-1.jpg" alt="..."> и ссылки -->
+        <div class="works">
+          <article class="work reveal">
+            <div class="placeholder placeholder--wide">Скриншот работы</div>
+            <div class="work__meta">
+              <h3>Лендинг психолога</h3>
+              <p>Запуск за 4 дня · форма записи в Telegram</p>
+            </div>
+          </article>
+          <article class="work reveal">
+            <div class="placeholder placeholder--wide">Скриншот работы</div>
+            <div class="work__meta">
+              <h3>Сайт мастера маникюра</h3>
+              <p>Услуги, цены, онлайн-запись</p>
+            </div>
+          </article>
+          <article class="work reveal">
+            <div class="placeholder placeholder--wide">Скриншот работы</div>
+            <div class="work__meta">
+              <h3>Страница онлайн-курса</h3>
+              <p>Программа, тарифы, оплата</p>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="certs__title reveal">Сертификаты об обучении</h3>
+        <!--
+          ЗАГРУЗКА СЕРТИФИКАТОВ:
+          1. Создайте папку img/certificates рядом с index.html
+          2. Положите туда файлы сертификатов (cert-1.jpg, cert-2.jpg ...)
+          3. Замените <div class="placeholder ..."> на:
+             <a href="img/certificates/cert-1.jpg" target="_blank">
+               <img src="img/certificates/cert-1.jpg" alt="Сертификат: нейросети, школа Ксении Барановой, 2026">
+             </a>
+        -->
+        <div class="certs">
+          <figure class="cert reveal">
+            <span class="cert__pin"></span>
+            <div class="placeholder placeholder--cert">Сертификат</div>
+            <figcaption>Нейросети<span>Школа Ксении Барановой, 2026</span></figcaption>
+          </figure>
+          <figure class="cert reveal">
+            <span class="cert__pin"></span>
+            <div class="placeholder placeholder--cert">Сертификат</div>
+            <figcaption>Промпт-инжиниринг<span>Школа Ксении Барановой, 2026</span></figcaption>
+          </figure>
+          <figure class="cert reveal">
+            <span class="cert__pin"></span>
+            <div class="placeholder placeholder--cert">Сертификат</div>
+            <figcaption>Вайбкодинг<span>Школа Ксении Барановой, 2026</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 10. ОТЗЫВЫ ===== -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-num">№ 09 — отзывы</p>
+          <h2>Что говорят <em>клиенты</em></h2>
+        </div>
+        <!-- ДОКРУТИТЬ: это образцы — заменить на реальные отзывы (имя, сфера, фото или скриншот переписки) -->
+        <div class="reviews">
+          <blockquote class="review review--big reveal">
+            <p>«Боялась, что буду выглядеть глупо со своими вопросами. Елена всё объясняла так спокойно, что я впервые поняла, как устроен мой сайт. Через неделю пришли первые заявки».</p>
+            <footer><strong>Анна</strong> · психолог</footer>
+          </blockquote>
+          <blockquote class="review reveal">
+            <p>«Студия назвала срок два месяца. С Еленой сайт был готов за пять дней, и стоил в несколько раз меньше. Правки вносила в тот же день».</p>
+            <footer><strong>Марина</strong> · владелица студии маникюра</footer>
+          </blockquote>
+          <blockquote class="review reveal">
+            <p>«Пришла с фразой “мне нужно что-то в интернете”. Ушла с понятным планом. Самое ценное — не было ощущения, что мне что-то впаривают».</p>
+            <footer><strong>Ольга</strong> · преподаватель английского</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 11. FAQ ===== -->
+    <section class="section section--paper" id="faq">
+      <div class="container faq-wrap">
+        <div class="faq-wrap__head reveal">
+          <p class="section-num">№ 10 — частые вопросы</p>
+          <h2>Отвечаю <em>на&nbsp;вопросы</em></h2>
+          <p>Не нашли свой? Напишите — отвечу лично и без шаблонов.</p>
+          <a href="https://t.me/username" class="link-underline">Спросить в Telegram</a><!-- ДОКРУТИТЬ: ссылка -->
+        </div>
+        <div class="faq reveal">
+          <details>
+            <summary>Мне нужно подготовить техническое задание?</summary>
+            <p>Нет. Достаточно рассказать о себе и своей работе. Всё остальное мы сформулируем вместе на консультации.</p>
+          </details>
+          <details>
+            <summary>Консультация ни к чему меня не обязывает?</summary>
+            <p>Не обязывает. Вы получите план и оценку стоимости, а решение примете сами и в своём темпе. Я не пишу с напоминаниями «ну что, решились?».</p>
+          </details>
+          <details>
+            <summary>Если сайт сделан нейросетью, он будет хуже обычного?</summary>
+            <p>Нет. Нейросеть — это инструмент, который ускоряет работу. Структуру, тексты, внешний вид и удобство я продумываю сама и проверяю вручную. Результат — полноценный современный сайт.</p>
+          </details>
+          <details>
+            <summary>У меня нет текстов и фотографий. Что делать?</summary>
+            <p>Тексты я помогу написать по итогам нашего разговора. С фото подскажу, какие нужны, а на старте можно обойтись аккуратными иллюстрациями.</p>
+          </details>
+          <details>
+            <summary>Сколько правок можно вносить?</summary>
+            <p>В стоимость входят правки до тех пор, пока сайт не будет соответствовать согласованному плану.<!-- ДОКРУТИТЬ: точное количество кругов правок --></p>
+          </details>
+          <details>
+            <summary>Кому будет принадлежать сайт?</summary>
+            <p>Вам. После запуска я передаю все доступы — сайт полностью ваш.</p>
+          </details>
+          <details>
+            <summary>Нужно ли платить за что-то ещё, кроме работы?</summary>
+            <p>Обычно — только за домен (адрес сайта) и хостинг (место, где сайт «живёт» в интернете). Это около [сумма] в год, я заранее всё посчитаю и помогу оформить.<!-- ДОКРУТИТЬ: сумма --></p>
+          </details>
+          <details>
+            <summary>Что, если мне не понравится результат?</summary>
+            <p>Вы видите черновик до запуска и можете вносить правки. А благодаря оплате по этапам вы ничем не рискуете на старте.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 12. ФИНАЛЬНЫЙ БЛОК С ЗАПИСЬЮ ===== -->
+    <section class="section signup" id="signup">
+      <div class="container signup__inner">
+        <div class="signup__text reveal">
+          <p class="section-num section-num--light">№ 11 — запись</p>
+          <h2>Давайте просто <em>поговорим</em> о&nbsp;вашей задаче</h2>
+          <p>
+            30 минут онлайн, бесплатно и без обязательств. Вы расскажете о своей работе,
+            а я подскажу, какой сайт вам подойдёт, сколько это займёт и сколько будет стоить.
+          </p>
+          <p class="signup__soft">Можно прийти без ТЗ, без текстов и даже без уверенности, что сайт нужен прямо сейчас.</p>
+          <div class="signup__contacts">
+            <!-- ДОКРУТИТЬ: реальные ссылки на мессенджеры -->
+            <a href="https://t.me/username" class="contact">Telegram ↗</a>
+            <a href="mailto:email@example.com" class="contact">email@example.com</a>
+          </div>
+        </div>
+
+        <!-- ДОКРУТИТЬ: подключить отправку формы (Formspree, Tilda-форма, Telegram-бот и т.п.) — указать адрес в action -->
+        <form class="form reveal" action="#" method="post">
+          <p class="form__title">Заявка на консультацию</p>
+          <label>
+            <span>Как к вам обращаться</span>
+            <input type="text" name="name" placeholder="Например, Анна" required>
+          </label>
+          <label>
+            <span>Телефон или ник в Telegram</span>
+            <input type="text" name="contact" placeholder="+7 ... или @username" required>
+          </label>
+          <label>
+            <span>Пара слов о задаче <em>(необязательно)</em></span>
+            <textarea name="message" rows="3" placeholder="Например: я психолог, хочу страницу для записи на консультации"></textarea>
+          </label>
+          <button type="submit" class="btn btn--full">Записаться на консультацию <span class="btn__arrow">→</span></button>
+          <p class="form__note">Отвечу в течение дня. Никаких рассылок и навязчивых звонков.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__big">Елена Уханова<em> — сайты, которые говорят за вас</em></p>
+      <div class="footer__row">
+        <p>© 2026 · вайбкодер</p>
+        <p><a href="#">Политика конфиденциальности</a><!-- ДОКРУТИТЬ: обязательна при сборе персональных данных --></p>
+        <p><a href="#top">Наверх ↑</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
